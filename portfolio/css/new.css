@@ -1,0 +1,94 @@
+.link-effect-2 a {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing:2px;
+}
+.link-effect-2 a span {
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+.link-effect-2 a span:before {
+    color:white;
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+
+}
+.link-effect-2 a:hover span {
+    transform: translateY(-100%);
+}
+
+.style-nav{
+    opacity: 1.2;
+}
+
+.logo-image{
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    background-image: url("../img/present/01/main.jpg");
+    background-size: 100% 100%;
+
+}
+.my-name{
+    font-family: Verdana sans-serif;
+
+}
+
+.main-li{
+    height: 44px;
+    width: 44px;
+    border-radius: 22px;
+    background-color: #138496;
+    margin-left: 10px;
+
+}
+.main-li:hover{
+    background-color: #6c757d;
+    transition: 1s;
+
+}
+i{
+    padding-left: 17px;
+    padding-top: 14px;
+
+}
+.header-section-2{
+    background-color: #DF916C;
+    border-top:10px  solid #343A40 ;
+    border-left:10px  solid #343A40 ;
+    border-right:10px  solid #343A40 ;
+
+}
+.my-btn{
+    width: 150px;
+    font-family: Verdana ;
+    font-size: large;
+
+
+}
+.my-btn:hover{
+    background-color: #ffc107;
+
+}
+
+
+.jssorl-009-spin  {
+    animation-name: jssorl-009-spin;
+    animation-duration: 2.6s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

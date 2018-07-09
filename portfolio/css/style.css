@@ -1,0 +1,158 @@
+
+.about-bg{
+    background-color: #555C6F;}
+
+.about-bg-one{
+background-color: #01BDBE;
+}
+.contact-section{
+    background-color: #CB7688;
+
+}
+
+.width-contant{
+    width: 80%;
+}
+
+.tranparent-pad{
+    background-color: rgba(255, 255, 255, 0.15);
+    padding:15px;
+    margin-bottom:20px;
+}
+
+
+
+
+.socialicons ul li{
+    display:inline-block;
+}
+.socialicons ul li a{
+    height:45px;
+    width:50px;
+    background:url('../img/icons/img-sprite.png') no-repeat 0px 0px;
+    display:inline-block;
+    border:none;
+    transition: 0.5s all;
+    webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.socialicons ul li a.twitter{
+    background:url('../img/icons/img-sprite.png') no-repeat -50px 0px;
+}
+.socialicons ul li a.google{
+    background:url('../img/icons/img-sprite.png') no-repeat -100px 0px;
+}
+.socialicons ul li a.pinterest{
+    background:url('../img/icons/img-sprite.png') no-repeat -150px 0px;
+}
+.socialicons ul li a.linkedin{
+    background:url('../img/icons/img-sprite.png') no-repeat -200px 0px;
+}
+.socialicons ul li a.facebook:hover{
+    background:url('../img/icons/img-sprite.png') no-repeat 0px -50px;
+}
+.socialicons ul li a.twitter:hover{
+    background:url('../img/icons/img-sprite.png') no-repeat -50px -50px;
+
+}
+
+.socialicons ul li a.google:hover{
+    background:url('../img/icons/img-sprite.png') no-repeat -100px -50px;
+
+}
+.socialicons ul li a.pinterest:hover{
+    background:url('../img/icons/img-sprite.png') no-repeat -150px -50px;
+
+}
+.socialicons ul li a.linkedin:hover{
+    background:url('../img/icons/img-sprite.png') no-repeat -200px -50px;
+}
+
+
+
+
+
+.bg-fixed-img{
+    background-image: url("../img/present/01/bgi5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+
+}
+.img-responsive{
+    height: 80px;
+    width: 80px;
+   margin-left: 80px;
+
+}
+
+/* jssor slider loading skin spin css */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.jssorb101 .i {position:absolute;cursor:pointer;}
+.jssorb101 .i .ci {fill:#000;}
+.jssorb101 .i .co {fill:#fff;opacity:.3;}
+.jssorb101 .i:hover .co {fill:#ff9933;opacity: 1;}
+.jssorb101 .i:hover .ci {fill:#fff;}
+.jssorb101 .iav .ci {fill:#fff;stroke-width:0;}
+.jssorb101 .iav .co {fill:#46d1d3;opacity: 1;}
+.jssorb101 .i.idn {opacity:.3;}
+
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+.testimonial-section{
+    background-color: #B31701;
+}
+
+.testi-li{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    position: relative;
+    top: 70px;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.testi-one-img{
+    background-image: url("../img/present/01/testi-one.png");
+    background-size: 100% 100%;
+    background-attachment: inherit;
+
+}
+
+.testi-two-img{
+    background-image: url("../img/present/01/testi-one.png");
+    background-size: cover;
+    background-attachment: local;
+}
+
+.testi-three-img{
+    background-image: url("../img/present/01/testi-one.png");
+    background-size: cover;
+    background-attachment: scroll;
+}
